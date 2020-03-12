@@ -1,0 +1,107 @@
+ssh dshivakumar@10.128.0.34 cd jenkins-testing/; pwd; git remote set-url origin https://github.com/Darshansgowda/jenkins-testing; git remote -v; git pull origin master;
+
+ssh dshivakumar@10.128.0.34 cd /home/dshivakumar/jenkins-testing/; pwd; git remote set-url origin https://github.com/Darshansgowda/jenkins-testing; git remote -v; git pull origin master;
+
+
+sudo vi /etc/ssh/sshd_config   //password auth
+sudo service ssh restart  
+
+
+IN ROOT
+vi /etc/sudoers
+webuser ALL=(ALL) NOPASSWD:ALL
+
+sudo su jenkins
+cd .ssh/
+
+
+################################################################################################################
+jenkins installation command //ubuntu 16.04
+
+https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Ubuntu
+
+#!/bin/bash
+sudo apt-get install default-jre -y
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins -y
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+
+sudo vi /var/lib/jenkins/secrets/initialAdminPassword
+
+
+################################################################################################################
+
+Apache2 Web Server on Ubuntu 16.04
+
+https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-16-04
+
+#!/bin/bash
+sudo apt-get update
+sudo apt-get install apache2 -y
+sudo systemctl status apache2
+sudo systemctl restart apache2
+ 
+################################################################################################################
+
+Static website deployement to AWS s3 using jenkins
+
+ssh-keygen -f s3cicijenkins
+s3cicijenkins   <username>
+reference: ssh-keygen -f ~/.ssh/<username>
+
+
+publish artifacts to s3 bucket jenkins //from s3 publish plug-in
+
+build/*
+s3-cicd-jenkins //bucket name
+
+build/static/
+s3-cicd-jenkins //bucket name
+
+npm run build
+git add -f build/   ///changed folder and files
+git add -f src/
+
+Bucket policy (Get all)
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1583722957788",
+    "Statement": [
+        {
+            "Sid": "Stmt1583722955223",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::s3-cicd-jenkins/*"
+        }
+    ]
+}
+s3-cicd-jenkins //bucket name
+################################################################################################################
+
+Deploy ReactJS application with S3 Static Hosting to AWS S3 from the local terminal using access and secret access key.
+
+https://medium.com/serverlessguru/deploy-reactjs-app-with-s3-static-hosting-f640cb49d7e6
+
+https://www.youtube.com/watch?v=PqUYq2Wx0lc
+
+Key points
+
+"deploy": "aws s3 sync build/ s3://reactapp-serverless" (package.json)
+
+reactapp-serverless //bucket name
+
+
+npm run build and npm run deploy (command to build and deploy)
+################################################################################################################
+
+Experiment on how to enable password authentication in AWS EC2 Instances
+
+https://www.serverkaka.com/2018/08/enable-password-authentication-aws-ec2-instance.html
+
+https://www.serverkaka.com/2018/08/upload-build-aws-s3-from-jenkins.html
+
+################################################################################################################

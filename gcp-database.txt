@@ -1,0 +1,56 @@
+*************************************************************************************************************************
+
+
+35.226.223.239  //My sql static ip
+
+mysql -h 35.226.223.239 -u darshan -pQwinix    ///mysql instance user
+
+check the .sql for database name, if not present login mysql instance and create new database "hello"
+
+mysql -h 35.226.223.239 -u darshan -pQwinix hello < mysqlsampledatabase.sql   //to restore using mysql instance user
+
+mysqldump -h 35.226.223.239 -u darshan -pQwinix -d hello > test.sql  //to take backup .sql
+
+*************************************************************************************************************************
+
+
+34.70.135.205
+34.70.135.205
+
+34.68.250.135
+
+mysql -h 34.68.250.135 -u darshan -pQwinix123!
+
+ mysql -u darshan -p hello < mysqlsampledatabase.sql
+GRANT ALL PRIVILEGES ON *.* TO 'darshan'@'localhost';
+mysql -u darshan -pQwinix123! hello < mysqlsampledatabase.sql
+
+
+ mysql –h 34.68.250.13 –u darshan -pQwinix123! hello < rad_dev_db.sql
+
+ mysql –h 34.68.250.13 –u darshan -pQwinix123! test < test.sql
+
+ mysqldump –h 34.70.135.205 –u darshan -pQwinix123! --databases hello > dump.sql 
+mysqldump –u darshan –pQwinix123! hello > testing.sql
+
+mysqldump -h 34.68.250.135 -u darshan -pQwinix123! -d test > test.sql   //command to take dump
+
+
+CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
+show tables;
+CREATE TABLE user (name VARCHAR(20));
+show tables;
+select * from user;
+INSERT INTO user VALUES('darshan');
+select * from user;
+INSERT INTO user VALUES('ujwala');
+
+
+grant all privileges on  test.* to darshan@'%' with grant option;
+
+
+UPDATE mysql.user SET Super_Priv='Y' WHERE user='darshan' AND host='%';
+
+GRANT ALL PRIVILEGES ON test.* TO 'darshan'@'%' WITH GRANT OPTION;
+
+GRANT ALL PRIVILEGES ON *.* TO 'darshan'@'localhost';

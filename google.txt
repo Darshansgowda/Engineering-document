@@ -1,0 +1,28 @@
+
+Deploying react app to Google Cloud Storage
+
+https://github.com/stuarth1/React-GoogleStorage
+
+https://www.youtube.com/watch?v=Jw60rw4p2lk
+
+https://www.youtube.com/watch?v=K_VJL0Mw_Jo  (using CNAME)
+
+################################################################################################################
+Deploy a NodeJs app on Google App Engine
+
+https://www.youtube.com/watch?v=thlFWQ15Z-0
+
+https://www.youtube.com/watch?v=a5DMzEmIf64
+
+################################################################################################################
+
+
+Deploying a React App to Google Cloud Platform using App Engine
+
+https://medium.com/better-programming/deploy-a-react-app-to-google-cloud-platform-using-google-app-engine-3f74fbd537ec
+
+################################################################################################################
+
+How to deploy a webapp to Google Cloud Run with Cloud
+
+https://dev.to/carlosazaustre/how-to-deploy-a-webapp-to-google-cloud-run-with-cloud-build-4eel
