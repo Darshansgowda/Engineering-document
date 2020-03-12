@@ -1,0 +1,35 @@
+https://severalnines.com/database-blog/backup-postgresql-using-pgdump-and-pgdumpall
+
+https://cloud.google.com/sql/docs/postgres/connect-admin-ip  //login
+
+https://stackoverflow.com/questions/49169094/postgres-pg-dump-version-mismatch-even-though-versions-are-the-same  //version missmatch server version and pg_dump version
+
+https://severalnines.com/database-blog/backup-postgresql-using-pgdump-and-pgdumpall  //create database
+
+104.197.170.61  //postgresql public ip
+
+
+psql -h 104.197.170.61 -u darshan -pQwinix
+
+
+psql "sslmode=disable dbname=postgres user=darshan hostaddr=104.197.170.61" //login inside postgresql
+
+
+\l  or \list  //listing database
+
+drop database example_backups;  //delete database
+
+
+pg_dump -h 104.197.170.61 -U darshan -p 5432 example_backups > dbname.bak  /// command to take backup postgresql
+
+
+//If you want to backup all of the databases on your system, then pg_dumpall is used
+
+sudo pg_dumpall -U user_name > backup_file
+
+psql -h 104.197.170.61 -U darshan -p 5432 example_backups < dbname.bak
+
+
+
+
+

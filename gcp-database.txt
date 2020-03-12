@@ -12,7 +12,7 @@ mysql -h 35.226.223.239 -u darshan -pQwinix hello < mysqlsampledatabase.sql   //
 mysqldump -h 35.226.223.239 -u darshan -pQwinix -d hello > test.sql  //to take backup .sql
 
 *************************************************************************************************************************
-
+https://www.fullstackpython.com/blog/install-mysql-ubuntu-1604.html
 
 34.70.135.205
 34.70.135.205
