@@ -1,0 +1,66 @@
+Install rbenv and Dependencies
+sudo apt update
+
+sudo apt install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm5 libgdbm-dev
+
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+
+source ~/.bashrc
+
+type rbenv
+
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+
+Installing Ruby with ruby-build
+rbenv install -l			(for listing available version)
+
+rbenv install <specific version> 		
+
+rbenv global <specific version> 	(To set specified version as default)
+
+ruby -v
+
+Working with Gems
+echo "gem: --no-document" > ~/.gemrc
+
+gem install bundler
+
+gem env home
+
+Installing Rails
+gem install rails -v 5.2.0
+
+Note: If you would like to install a different version of Rails, you can list the valid versions of Rails by doing a search, which will output a long list of possible versions. We can then install a specific version, such as 4.2.7:
+
+gem search '^rails$' --all
+
+gem install rails -v 4.2.7
+
+If you would like to install the latest version of Rails, run the command without a version specified:
+gem install rails
+rbenv rehash
+rails -v
+Updating rbenv
+cd ~/.rbenv
+git pull
+Uninstalling Ruby versions
+rbenv uninstall <specific version>
+Uninstalling rbenv
+nano ~/.bashrc
+Find and remove the following two lines from the file:
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+Then remove rbenv and all installed Ruby versions with this command:
+rm -rf `rbenv root`
+
+
+
+
+
+http://www.dsolc.com/blogs/8-deploying-rails-app-to-ec2-instance-with-capistrano-using-nginx-and-puma
+
+https://www.hhemanth.com/posts/deploy-rails-app-using-capistrano-nginx-unicorn-aws/
