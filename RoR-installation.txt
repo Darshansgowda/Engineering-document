@@ -64,3 +64,51 @@ rm -rf `rbenv root`
 http://www.dsolc.com/blogs/8-deploying-rails-app-to-ec2-instance-with-capistrano-using-nginx-and-puma
 
 https://www.hhemanth.com/posts/deploy-rails-app-using-capistrano-nginx-unicorn-aws/
+
+
+https://amandeep511997.github.io/2017-12-28-aws-puma-nginx/
+
+https://www.digitalocean.com/community/tutorials/how-to-deploy-a-rails-app-with-puma-and-nginx-on-ubuntu-14-04
+
+
+
+
+
+##############################################
+
+chmod 400 ror-deployment.pem
+ec2-54-183-10-126.us-west-1.compute.amazonaws.com
+ssh -i "ror-deployment.pem" ec2-user@ec2-54-183-10-126.us-west-1.compute.amazonaws.com
+
+amazon linux
+
+https://www.danstutzman.com/2012/09/rbenv-on-aws-ec2.html
+
+
+
+Open your config/database.yml file, and then set up your production database setting as follows
+
+ production:
+  		<<: *default
+  		host: localhost
+  		adapter: postgresql
+  		encoding: utf8
+  		database: appname_production
+  		pool: 5
+  		username: <%= ENV['appname'] %>
+  		password: <%= ENV['Qwinix'] %>
+
+
+  		
+
+  		Creating Production database
+Now that your application is configured with your PostgreSQL database, create the production database by following command
+ $ RAILS_ENV=production bundle exec rake -T rake db:create
+Set up your database
+ $ RAILS_ENV=production bundle exec rake -T rake db:migrate
+You should also precompile the assets
+ RAILS_ENV=production bundle exec rake -T rake assets:precompile
+
+
+to change bundle/bundler version 
+https://stackoverflow.com/questions/9725811/how-to-downgrade-bundler-or-upgrade-rails

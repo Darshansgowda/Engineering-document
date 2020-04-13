@@ -1,0 +1,20 @@
+cloud-optimization
+
+https://meet.google.com/eho-dpix-qkp
+
+#create process for creating new projects
+
+https://cloud.google.com/billing/docs/how-to/visualize-data
+
+https://www.youtube.com/watch?v=UocD6uY2-js
+
+https://www.youtube.com/watch?v=ZyMO9XabUUM
+
+1. First need to setup billing export in billing
+
+	Created a BigQuery dataset
+
+	Enabled Cloud Billing export to the BigQuery dataset
+
+	When you first enable export to BigQuery, it might take a few hours to start seeing your Google Cloud billing data.
+

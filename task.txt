@@ -1,0 +1,29 @@
+Create a Environment with NGINX, Rails 5 , ruby 2.3.0 
+  Use puma/unicorn as app server 
+
+
+Create a Environment with  APACHE , Rails 5 , ruby 2.3.0 
+              Use passenger 
+   
+Create CI/CD for the above two tasks. Setup Jenkins server on a VM. 
+
+Deploy Angular/React application to s3 via Jenkins 1...done
+
+Deploy Nodejs app using SLS framework. 
+
+Adding SSL certificates to Nginx and Apache 2.... 
+
+
+How SSL certs are generated , Steps to create SSL certs 3...done
+
+Creation of Instances in GCP. Adding monitoring for the instance using stackdriver. Customize the monitoring. Set alerts for the same ....done
+
+
+Security with GCP. Monitor the security groups if any ports are open to the world. Setup alerts.  ..done  
+
+
+Last friday i have worked on G-suit account, deleted the users who are not logged in since from past 6 months by verifying with somadatta.
+Worked with MSP tickets ( Office 365 access, Remove the unused Office 365 subscriptions ).
+And found some engineering documents and videos to deploy rails and puma configuration.
+
+Today i am going to work on engineering documents to get rails application to deploy.  

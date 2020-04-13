@@ -1,0 +1,95 @@
+ 1997  gcloud config list
+ 1998  python3
+ 1999  python2.7
+ 2000  cd Downloads/
+ 2001  cd  
+ 2002  cd ~
+ 2003  cd opt
+ 2004  cd  
+ 2005  cd /opt/
+ 2006  pwd
+ 2007  cd -
+ 2008  pwd
+ 2009  cd -
+ 2010  mv /home/dshivakumar/Downloads/terraform_0.12.24_linux_amd64.zip .
+ 2011  sudo mv /home/dshivakumar/Downloads/terraform_0.12.24_linux_amd64.zip .
+ 2012  ls
+ 2013  unzip terraform_0.12.24_linux_amd64.zip 
+ 2014  sudo unzip terraform_0.12.24_linux_amd64.zip 
+ 2015  ls
+ 2016  ls terraform
+ 2017  cd  
+ 2018  cd terrform/
+ 2019  export PATH=$PATH:/opt/
+ 2020  ls
+ 2021  terraform -v
+ 2022  touch main.tf
+ 2023  ls
+ 2024  code .
+ 2025  cd  
+ 2026  cd Downloads/
+ 2027  ls noc-test-project-9095ad7e3222.json 
+ 2028  pwd
+ 2029  cd -
+ 2030  cd terrform/
+ 2031  pwd
+ 2032  terraform init
+ 2033  terraform show
+ 2034  ls -al
+ 2035  ls .terraform/
+ 2036  ls .terraform/plugins/
+ 2037  ls .terraform/plugins/linux_amd64/
+ 2038  vi .terraform/plugins/linux_amd64/
+ 2039  cat .terraform/plugins/linux_amd64/
+ 2040  cat .terraform/plugins/linux_amd64/lock.json 
+ 2041  terraform plan
+ 2042  terraform plan -out
+ 2043  terraform plan -out deploy_gs_asia_south.tfplan
+ 2044  ls
+ 2045  terraform plan
+ 2046  terraform apply
+ 2047  terraform plan
+ 2048  ls -al
+ 2049  cat terraform.tfstate 
+ 2050  terraform apply
+ 2051  ls -al
+ 2052  cat terraform.tfstate.backup 
+ 2053  ls -al
+ 2054  cat terraform.tfstate
+ 2055  terraform show
+ 2056  terraform validate
+ 2057  terraform applay
+ 2058  terraform apply
+ 2059  terraform show
+ 2060  terraform plan --destroy
+ 2061  terraform plan --destroy -out destroy.tfplan
+ 2062  terraform show
+ 2063  terraform destroy google_storage_bucket.terraform_test_ds
+ 2064  terraform destroy google_storage_bucket.terraform_test_ds.demo_terraform_ds
+ 2065  terraform destroy -target google_storage_bucket.terraform_test_ds.demo_terraform_ds
+ 2066  terraform destroy -target google_storage_bucket.terraform_test_ds
+ 2067  terraform show
+ 2068  ls -al
+ 2069  cat terraform.tfstate
+ 2070  terraform plan
+ 2071  terraform show
+ 2072  terraform validate
+ 2073  terraform plan
+ 2074  terraform show
+ 2075  terraform plan
+ 2076  terraform apply
+ 2077  terraform plan
+ 2078  terraform validate
+ 2079  terraform apply
+ 2080  terraform show
+ 2081  cat terraform.tfstate
+ 2082  terraform apply
+ 2083  cat terraform.tfstate
+ 2084  terraform apply
+ 2085  terraform show
+ 2086  terraform destroy
+ 2087  terraform show
+ 2088  terraform apply
+ 2089  terraform destroy
+ 2090  terraform show
+ 2091  history
