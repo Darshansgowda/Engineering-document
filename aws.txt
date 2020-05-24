@@ -57,7 +57,6 @@ publish artifacts to s3 bucket jenkins //from s3 publish plug-in
 
 build/*
 s3-cicd-jenkins //bucket name
-
 build/static/
 s3-cicd-jenkins //bucket name
 
@@ -91,3 +90,11 @@ https://www.serverkaka.com/2018/08/enable-password-authentication-aws-ec2-instan
 https://www.serverkaka.com/2018/08/upload-build-aws-s3-from-jenkins.html
 
 ################################################################################################################
+adduser  username
+passwd  username
+vi /etc/sudeors
+root  all: alll
+jenkins
+jenkins -- keys  -- authorized_keys
+jenkins key pub copy
+jenkins  server -- >  ssh jenkins@ip address	

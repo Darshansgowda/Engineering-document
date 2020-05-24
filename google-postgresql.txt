@@ -30,6 +30,3 @@ sudo pg_dumpall -U user_name > backup_file
 psql -h 104.197.170.61 -U darshan -p 5432 example_backups < dbname.bak
 
 
-
-
-

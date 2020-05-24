@@ -18,3 +18,8 @@ https://www.youtube.com/watch?v=ZyMO9XabUUM
 
 	When you first enable export to BigQuery, it might take a few hours to start seeing your Google Cloud billing data.
 
+
+	https://www.youtube.com/watch?v=BUY--UWUuyk
+
+	https://developers.google.com/maps/premium/new-plan-migration-walkthrough
+
