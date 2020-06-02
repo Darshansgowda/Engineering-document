@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=0O0W_wpkvhY
+
+
+#!/bin/bash
+
+sudo apt-get update -y
+sudo apt-get install apache2 -y
+sudo systemctl start apache2.service -y
+apt-cache pkgnames | grep php7.2
+sudo apt-get install php -y
+sudo systemctl restart apache2.service
+sudo apt-get update -y
+sudo apt-get install mysql-server mysql-client -y
+
+
+
+sudo mysql_secure_installation
+
+
+/phpmyadmin
+sudo apt-get install phpmyadmin -y
+sudo vi /etc/apache2/apache2.conf
+paste: Include /etc/phpmyadmin/apache.conf
+sudo systemctl restart apache2.service
+
+
+sudo nano /etc/apache2/sites-available/000-default.conf   //to change directorys
+
+
+
+
+
+

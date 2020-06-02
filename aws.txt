@@ -20,16 +20,23 @@ jenkins installation command //ubuntu 16.04
 
 https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Ubuntu
 
+for Debian GNU/Linux 10 (buster)
+
 #!/bin/bash
 sudo apt-get install default-jre -y
+sudo apt-get install wget -y
 wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
 sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
 sudo apt-get update
 sudo apt-get install jenkins -y
 sudo systemctl start jenkins
 sudo systemctl status jenkins
+sudo apt-get install git -y
+
 
 sudo vi /var/lib/jenkins/secrets/initialAdminPassword
+
+
 
 
 ################################################################################################################
