@@ -1,0 +1,4 @@
+Deployed sale_revision_history app to adarsh-gopal-lights-shades-uat repo.
+
+
+Deployed manufacture_log_sheet app to SF_DYES_TESTING (Branch: Stage) repo.

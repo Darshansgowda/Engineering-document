@@ -5,5 +5,7 @@ https://www.youtube.com/watch?v=fem4GYQ9Hkc  ///It will work
 
 https://www.linuxhelp.com/how-to-create-ssl-certificate-on-nginx-for-centos
 
-https://www.youtube.com/watch?v=7bHSUCKt3SE
+https://www.youtube.com/watch?v=7bHSUCKt3SE   //SSL for NGINX//s
+
+https://www.youtube.com/watch?v=d4QDyHLHZ9c
 
