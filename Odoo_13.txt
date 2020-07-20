@@ -1,0 +1,11 @@
+Odoo 13 Direct install
+
+sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/13.0/odoo_install.sh 
+
+sudo nano odoo_install.sh  
+
+sudo chmod +x odoo_install.sh        
+
+./odoo_install.sh  
+
+sudo service odoo-server restart -c /etc/odoo-server.conf  

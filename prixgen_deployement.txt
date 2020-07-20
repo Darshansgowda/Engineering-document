@@ -1,4 +1,13 @@
-Deployed sale_revision_history app to adarsh-gopal-lights-shades-uat repo.
+Meeting points 16-july
+1. SMS integration
 
+Meeting points 17-july
+1. analytical
 
-Deployed manufacture_log_sheet app to SF_DYES_TESTING (Branch: Stage) repo.
+1.Deployed calendar_days_pixon app to adarsh-gopal-pixon ( master ) repo.
+
+2.Deployed payroll_report_excel app to pixon Stage-2.
+
+3.Deployed quotation_report_for_lns app to adarsh-gopal-lights-shades-new repo.
+
+4.Deployed odoov13_39 app to adarsh-gopal-curefit-live repo.

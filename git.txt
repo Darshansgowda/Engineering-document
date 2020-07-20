@@ -1,0 +1,10 @@
+Delete or remove last commit in Git 
+
+https://www.youtube.com/watch?v=OF1Apg3cH9Y
+
+git log
+git reset HEAD~1
+git log
+git status
+git diff
+git checkout <file_name>

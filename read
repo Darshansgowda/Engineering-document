@@ -79,41 +79,6 @@ https://fr.coursera.org/lecture/gcp-cost-optimization/setting-up-budgets-and-ale
 Sorry for the inconvenience, poor internet speed
 
 
-There ___ a red car parked on the road. 
-I ___ tennis every Sunday morning. ( am playing/ playing/ play/ played )
-Sorry, she can’t come to the phone. She ___ a bath. ( has/ having/ is having/ had) 
-How many students ___ from Mysore? ( comes/ come/ came/ are coming) 
-Babies ___ when they are hungry.  ( cried/ cries/ cry/ are crying) 
-She ___ pants today; usually she wears sarees. ( wearing/ weared/ wore/ is wearing)
-There ___ many options to choose from. ( is/ are/ be )
-How old are you?
-How long have you been working? - Use Since/For and frame your sentence.
-____ some more coffee? ( do you/ do you like/ you would like/ would you like)
-He ___ never been to America. ( had not/ has not/ has/ had)
-Pick the correct sentence : 
-- Arjun usually arrives late. 
-- Arjun late arrives usually.
-- Arjun late usually arrives. 
-- Arjun usually late arrives. 
-He plays cricket, ___ ? ( don’t he/ isn’t he/ doesn’t he/ does he)
-___ your house from here? ( How much/ How long/ How far/ How many)
-She ___ go to school yesterday. ( should have/ had to/ must) 
-Few of the apartments __ to be cleaned. ( needs/ need )
-The books and the magazine __ placed on the table. ( was/ where/ were) 
-Someone is the house always __ responsibility. ( take/ takes)
-___ she know how to drive a car? ( doesn’t / don’t)
-Neither the markers nor the pen ___ well. ( write/ writes/ wrote/ written). 
-
-
-Prepared the documentation for cloud optimization and implementing CICD for reactjs application in googlecloud platform, conneceted github to jenkins server and cloud storage with jenkins, today i will work on NAME, CNAME, TYPE
-
-Worked on NAME, CNAME, TYPE, authorization error is coming for qwinix.io domin, i need to check with somadatta.
-
-Working on google cloud platform subaccounts
-
-1. Worked on creation of sub accounts in gcp and prepared the document.
-2. Google cloud storage TYPE needs to authenticate with qwinix.io domain, informed to somadatta and waiting for a reply.
-
 
 Worked on google firewall rules by connecting office vpn.
 
@@ -121,72 +86,5 @@ Today i will continue with google cloud storage by adding txt and CName to Activ
 
 https://www.youtube.com/watch?v=WL3hN53cY7k
 
-Reg - Today's technical and soft-skill update.
 
-Hi Divya,
-
-
-Technical update:
-
-I have worked on google cloud storage to implement continuous integration and continuous deployment(CICD), connected GitHub with jenkins server and google cloud storage with jenkins server using google service account, added text record to qwinix.io domain and added canonical name record(CNAME) with dev-reactjs.qwinix.io and resloved redirection issue. Struck with contents of build folder upload, try to resolve the same.
-
-
-soft-skill update:
-
-1. Went through 1st, 2nd, 3rd person and tried to make the sentences using verbs. Examples given below:
-	i. He/She drives car well.
-	ii.They drive car well.
-	iii. I/you drive car well.(exception)
-	iv. We drive car well.
-	v. He/She jumps into the well.
-	vi They jump into the well.
-	vii. I/you jump into the well.(exception)
-	viii. We jump into the well. etc..
-2. I am avoiding "ing" when I am speaking past situations. 
-
-
-
-1. Working on automate project creation(cloud-optimization).
-
-
-1. Completed automate project creation using Billing Budget, dataset in bigquery using terraform scripts
-
-
-Using terraform scripts we can automate project creation, storage, dataset in bigquery, billing_budget_basic and billing_budget_filter.
-
-Code has been pushed to cloud-optimization repo under automate-project-creation.
-
-
-Microsoft office 365 license has been assigned, kindly go to office.com and install office 365.
-
-
-Primary troubleshooting: Checked with hardware and software, we found with the OS, which was crashed. decided to reinstall the OS.
-
-Rectification: Windows 10 OS has been reinstalled and kept under observation for 2 hours found system is working fine, we can close this ticket.
-
-
-As i have discussed with Prakash, took the faulty one, we have a original charger in inventory and informed to Prakash to collect it tomorrow and he agreed the same.
-
-Additional 4GB RAM has been upgraded.
-
-Assigend new charger to prakash, we are closing this ticket.
-
-
-Cloud Storage
-Data Sources
-Resources
-
-
-
-deployment,upload, archive, password reset, Analogue, Digital, Bandwidth, cut-off, insuffecient memory, Encryption, decription, Gateway, firewall, 
-
-
-HP.86791188676
-
-05220434
-
-
-Lenovo thinkpad E490
-
-
-Dell vostro 2520
+Consider larger file i.e your database backup, smaller one is apps backup from GitHub.
