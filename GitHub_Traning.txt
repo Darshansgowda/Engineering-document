@@ -1,0 +1,10 @@
+Training on GitHub to MCL team.
+
+1. Install the GitHub in local system and configured (username, email).
+2. Explained and Practically shown how to clone the repository from GitHub to local system using terminal.
+3. How to fetch origin's.
+5. How to check the git branch.
+6. Explained on git status, how to commit message when file/folder changed.
+7. How to push using origin.
+8. How to add apps to Stage, how to add apps to master using git checkout.
+9. When new app comes in, explained how add new app to stage and master branch.
