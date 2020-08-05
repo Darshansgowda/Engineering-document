@@ -4,10 +4,32 @@ Meeting points 16-july
 Meeting points 17-july
 1. analytical
 
-1.Deployed calendar_days_pixon app to adarsh-gopal-pixon ( master ) repo.
+'author': 'Prixgen Tech Solutions Pvt. Ltd.',
+    'website': 'https://www.prixgen.com',
+    'company': 'Prixgen Tech Solutions Pvt. Ltd.',
 
-2.Deployed payroll_report_excel app to pixon Stage-2.
+#####################################################################
 
-3.Deployed quotation_report_for_lns app to adarsh-gopal-lights-shades-new repo.
+1.Nikitha PC laptop backup. 2hours
 
-4.Deployed odoov13_39 app to adarsh-gopal-curefit-live repo.
+2.Deployed odoov13_42 app to adarsh-gopal-curefit-live repo. 10mins
+
+3.Deployed intercompany_transaction_ept app to adarsh-gopal-ravago-new-test1 repo. 10mins
+
+4.Deployed inventory_report_excel app to adarsh-gopal-odoo-12 (MCL) repo. 10mins
+
+5.Deployed loan and loan accounting app from pixon Stage 1 to Master database. 20mins
+
+6.Pixon (Stage-1) Database and Apps backup for dolly. 20mins
+
+7.lns-uat Database and Apps backup for santhosh. 20mins
+
+8.Deployed bi_crm_leads_sequence and quotation_report_for_lns apps from lns-new to lns-uat. 10mins
+
+#####################################################################
+
+Deployed hrms_custom_fields app to pixon master from pixon Stage-1.
+
+Worked on GitHub Teams, outside collaborator, Managed Repositories and prepared PPT.
+
+Worked on sublime merge and KT given to Aniruddh along with satish sir.

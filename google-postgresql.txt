@@ -52,3 +52,9 @@ psql
 ###########################################################################################
 1  ./odoo-bin --addons-path=addons/,../enterprise/addons --xmlrpc-port=8070
 2  ./odoo-bin --addons-path=addons/,../enterprise/addons/,../custom/addons --xmlrpc-port=8070 -d testing -u all    //testing DB name   //add apps to custom-->addons-->
+
+
+sudo service postgresql restart
+sudo systemctl restart postgresql.service
+
+sudo kill -9 $(sudo lsof -t -i:8070)

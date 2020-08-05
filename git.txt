@@ -1,3 +1,12 @@
+Git configuration
+
+https://phoenixnap.com/kb/how-to-install-git-windows
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+
+
 Delete or remove last commit in Git 
 
 https://www.youtube.com/watch?v=OF1Apg3cH9Y
