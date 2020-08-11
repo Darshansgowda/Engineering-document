@@ -9,16 +9,3 @@ Meeting points 17-july
     'company': 'Prixgen Tech Solutions Pvt. Ltd.',
 
 #####################################################################
-
-
-
-
-
-
-
-
-
-
-
-
-524769416

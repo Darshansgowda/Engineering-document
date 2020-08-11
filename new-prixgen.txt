@@ -1,6 +1,4 @@
-1b173deb62dd9f27da1f53688a706b82774b2cf8
 
-1bad35a7998b419c2a59b07cc60442be8b2f47b2
 
 Deployed purchase_request_base, user_validation, purchase_approve, purchase_base and sale_base apps to adarsh-gopal-woo-qas repo. 30mins
 
