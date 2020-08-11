@@ -58,7 +58,7 @@
  2054  cat terraform.tfstate
  2055  terraform show
  2056  terraform validate
- 2057  terraform applay
+ 2057  terraform apply
  2058  terraform apply
  2059  terraform show
  2060  terraform plan --destroy

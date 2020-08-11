@@ -14,14 +14,5 @@ bundle exec cap production deploy --trace
 
 Running via Spring preloader in process 12406
 51f6cb3d2b81f45acf92572f0ac9ce57c1d866321e44cc53259603c6a4a4e9c186c580339e6e7ce80a31f55f52e6ff82dd2cd0b901ce189c7a201c4f618f28bd
-  
-non electrical
 
-botan, nepal 
-
-india 40%, political  
-
-young india 
-
-india can become
 
