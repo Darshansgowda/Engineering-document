@@ -1,9 +1,5 @@
+1b173deb62dd9f27da1f53688a706b82774b2cf8
 
+1bad35a7998b419c2a59b07cc60442be8b2f47b2
 
-Deployed purchase_request_base, user_validation, purchase_approve, purchase_base and sale_base apps to adarsh-gopal-woo-qas repo. 30mins
-
-Worked on GitHub, restrict normal user to push the changes. 1 hour 10 mins
-
-Researched on how open source licenses work and how to add them to our projects. 1 hour
-
-Deployed partner_category, purchase_base, partner_credit_limit, gateentry, lns_analytic_account and user_validation apps to adarsh-gopal-vahini-uat repo. 30mins
+2e9b8f66589eaa49792f2904d68f277351caa5df

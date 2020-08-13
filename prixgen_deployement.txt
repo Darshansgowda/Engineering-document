@@ -8,4 +8,15 @@ Meeting points 17-july
     'website': 'https://www.prixgen.com',
     'company': 'Prixgen Tech Solutions Pvt. Ltd.',
 
-#####################################################################
+##################################################################################
+
+1.Deployed partner_category, partner_credit_limit, sales_discount apps to adarsh-gopal-vahini-uat repo. 15mins
+
+2.Deployed fcv_report, odoov13_15, odoov13_42, odoov13_48, odoov13_49 apps to adarsh-gopal-curefit-live repo. 20mins
+
+3.Deployed sales_discount and sale_advance_payment apps to adarsh-gopal-lights-shades-new repo. 15mins
+
+4.Tested GitHub access to normal user(how to resctrict access from creating teams, repo's). 1 hour 30mins
+
+5.Deployed manufacturing_base app to adarsh-gopal-ferrum repo. 10mins
+
