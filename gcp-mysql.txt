@@ -54,3 +54,6 @@ UPDATE mysql.user SET Super_Priv='Y' WHERE user='darshan' AND host='%';
 GRANT ALL PRIVILEGES ON test.* TO 'darshan'@'%' WITH GRANT OPTION;
 
 GRANT ALL PRIVILEGES ON *.* TO 'darshan'@'localhost';
+
+
+

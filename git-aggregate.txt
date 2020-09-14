@@ -1,0 +1,8 @@
+Usage "git-aggregate"
+
+1. Aggregate repositories at any time.
+2. Aggregate and automatically push the result to the target(branch of the repo).
+3. It show all closed GitHub pull requests.
+4. It will show all GitHub pull requests.
+
+In order to achive this, need to configure repos.yaml file in root directory.

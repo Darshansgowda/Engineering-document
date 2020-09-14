@@ -49,3 +49,63 @@ steps:
      gzip_disable "MSIE [1-6]\.";
 
 }
+
+
+FROM ubuntu:18.04
+COPY . /app
+RUN make /app
+CMD python /app/app.py
+
+Each instruction creates one layer:
+
+FROM creates a layer from the ubuntu:18.04 Docker image.
+COPY adds files from your Docker client’s current directory.
+RUN builds your application with make.
+CMD specifies what command to run within the container.
+
+
+
+
+
+
+
+
+
+
+
+Docker commands
+
+ 
+ 1985  docker build -t darshan/node-web-app .
+ 1986  sudo docker build -t darshan/node-web-app .
+ 1987  sudo docker ps
+ 1988  docker images
+ 1989  sudo docker images
+       sudo docker run -p 49160:8080 -d darshan/node-web-app
+ 1990  docker run -p 49160:8080 -d darshan/node-web-app
+ 1992  curl -i localhost:49160
+ 1993  sudo docker ps
+ 1995  docker run -p 49160:8080 -d darshan/node-web-app
+ 1996  sudo docker run -p 49160:8080 -d darshan/node-web-app
+ 1997  sudo docker ps
+ 1998  docker exec -it 0930bd64dd62/bin/bash
+ 1999  docker exec -it 0930bd64dd62 /bin/bash
+ 2000  sudo docker exec -it 0930bd64dd62 /bin/bash
+ 2001  docker run -p 49160:8080 -d <your username>/node-web-app
+ 2002  docker run -p 49160:8080 -d darshan/node-web-app
+ 2003  sudo docker run -p 49160:8080 -d darshan/node-web-app
+ 2004  npx kill-port 49160
+ 2005  sudo docker run -p 49160:8080 -d darshan/node-web-app
+ 2006  docker-machine ip default
+ 2007  docker container ls
+ 2008  sudo docker container ls
+ 2009  docker rm -f 0930bd64dd62
+ 2010  sudo docker rm -f 0930bd64dd62
+ 2011  sudo docker container ls
+ 2012  sudo docker run -p 49160:8080 -d darshan/node-web-app
+ 2013  docker-machine ip default
+ 2014  sudo docker container ls -a
+       sudo docker rm -f 0930bd64dd62
+ 2024  sudo docker stop 4c70e6bd96e6
+ 2026  sudo docker start 4c70e6bd96e6
+       sudo docker image rm -f image darshan/node-web-app

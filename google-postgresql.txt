@@ -49,6 +49,8 @@ psql
 
 ./odoo-bin --addons-path=addons/,../enterprise/addons/,../custom/addons --xmlrpc-port=8070 -d lns -u all   //for icons  //lns = DB name
 
+--limit-time-real 99999999999
+
 ###########################################################################################
 1  ./odoo-bin --addons-path=addons/,../enterprise/addons --xmlrpc-port=8070
 2  ./odoo-bin --addons-path=addons/,../enterprise/addons/,../custom/addons --xmlrpc-port=8070 -d testing -u all    //testing DB name   //add apps to custom-->addons-->
@@ -58,3 +60,52 @@ sudo service postgresql restart
 sudo systemctl restart postgresql.service
 
 sudo kill -9 $(sudo lsof -t -i:8070)
+
+CREATE USER postgresql WITH PASSWORD '1234';
+
+
+CREATE ROLE postgresql WITH SUPERUSER;
+
+role need to create
+
+create role curefit;  ////if required
+
+
+\i /home/nidisha/Downloads/Odoo_SCM_Curefit_03_09.sql
+
+\l
+
+\q
+
+ALTER DATABASE "Odoo_SCM_Curefit" OWNER TO darshan; //user
+
+\dt
+
+/d //to check the tables
+
+
+create role curefit; curefit //User
+
+\c Odoo_SCM_Curefit;  Odoo_SCM_Curefit//db name //connect to database
+
+
+createdb -T template0 curefit
+
+	sudo -u postgres psql
+
+//List 10 largest tables in PostgreSQL database
+
+select schemaname as table_schema,
+    relname as table_name,
+    pg_size_pretty(pg_total_relation_size(relid)) as total_size,
+    pg_size_pretty(pg_relation_size(relid)) as data_size,
+    pg_size_pretty(pg_total_relation_size(relid) - pg_relation_size(relid))
+      as external_size
+from pg_catalog.pg_statio_user_tables
+order by pg_total_relation_size(relid) desc,
+         pg_relation_size(relid) desc
+limit 10;
+
+
+//table size in MB.
+SELECT pg_size_pretty (pg_relation_size('actor'));

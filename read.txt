@@ -97,3 +97,8 @@ https://apps.odoo.com/apps/modules/browse?search=Users+Limits
 
 darshan@prixgen-onsip-account.onsip.com
 Prixgen@12345
+
+
+Since both the server (Odoo and AWS) running under UTC time, So no issue with the time zone.
+In Odoo the smtp server is configured using prixgen smtp server and working as accepeted our internal ERP.
+In AWS SES is used to exchange the emails, may issue with the configuration but not confirmed because we do not know how the configuration was build and changes made them in between. 

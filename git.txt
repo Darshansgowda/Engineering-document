@@ -17,3 +17,7 @@ git log
 git status
 git diff
 git checkout <file_name>
+
+
+
+git remote rm
