@@ -11,22 +11,12 @@ Meeting points 17-july
 ##################################################################################
 
 
-1.Deployed manufacturing_base app to SF_DYES_TESTING (master,new branch)repo. 10 mmins
+1.Deployed and retrive weighment app to vahini-uat. 10 mins
 
-2.Deployed tds_register_report app to adarsh-gopal-pixon-live (Branch - staging)repo. 10mins
+2.Deployed asset_management app to woo-qas. 5mins
 
-3.Deployed cogs2_report app to adarsh-gopal-test-curefit repo. 5mins
+3.Help to shashank to push the code to github repo. 30mins
 
-4.Deployed je_bulk_reset app to sf-dyes-sfdpl (Branch: Stage) repo. 5mins 
+4.Deployed lns_fields app updated by shashank to lns-new repo. 5mins
 
-5.Deployed customer_tax_invoice, prixgen_reports_journal_entry app to adarsh-gopal-woo-qas repo. 15mins
-
-6.Curefit database backup and restore for adithya and tejpavan. 30mins
-
-7.worked on increase CPU Time limit in Odoo.sh. 20mins
-
-8.SFDPL Live Database (Staging Environment) Backup. 20mins
-
-9.Woo-qas Master database backup and restore for dolly and madhukumar. 20mins
-
-10.Deployed asset_management app to adarsh-gopal-lights-shades-new repo. 5mins
+5.Installed hr_organizational_chart and Standard_fields_required_HRMS apps to MAS test system. 20mins  
