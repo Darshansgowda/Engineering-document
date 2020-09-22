@@ -10,13 +10,19 @@ Meeting points 17-july
 
 ##################################################################################
 
+1.satishprixgen-test-prixgen master database backup. 10mins
 
-1.Deployed and retrive weighment app to vahini-uat. 10 mins
+2.Repository has been created Alansari-Development repo. 10mins
 
-2.Deployed asset_management app to woo-qas. 5mins
+3.Deployed partner_firstname - V13.0.0.2, website_sale_custom - V13.0.0.3 and ecom_product_tech_info - V13.0.0.2 from Alansari-Development repo to al_ansari_test2 repo. 20mins
 
-3.Help to shashank to push the code to github repo. 30mins
+4.Curefit work on AWS environment. 30mins
 
-4.Deployed lns_fields app updated by shashank to lns-new repo. 5mins
+5.Deployed ecom_product_tech_info - V13.0.0.3 from Alansari-Development repo to al_ansari_test2 repo. 10mins
 
-5.Installed hr_organizational_chart and Standard_fields_required_HRMS apps to MAS test system. 20mins  
+6.Deployed partner_firstname - V13.0.0.2, website_sale_custom - V13.0.0.3 and ecom_product_tech_info - V13.0.0.3 apps from al_ansari_test2 repo (Branch: UAT) to alansari-oman-alansari (Branch:stage). 20mins
+
+7.Testing environment has been created for sf-dyes. 20mins
+
+8.Deployed and installed manufacturing_base version 13.0.1.1 app to https://satishprixgen-testing.odoo.com/web#cids=1&home= 5mins
+

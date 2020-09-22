@@ -109,3 +109,9 @@ limit 10;
 
 //table size in MB.
 SELECT pg_size_pretty (pg_relation_size('actor'));
+
+///login curefit postgresql database
+
+psql -h curefit-stage-odoo-master.stage.cure.fit.internal -Ucurefit -dpostgres  -W
+
+psql  testingdev postgres
