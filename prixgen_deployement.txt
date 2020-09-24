@@ -4,25 +4,21 @@ Meeting points 16-july
 Meeting points 17-july
 1. analytical
 
-'author': 'Prixgen Tech Solutions Pvt. Ltd.',
+'author': 'Prixgen Tech Solutions Pvt. Ltd.',to 
     'website': 'https://www.prixgen.com',
     'company': 'Prixgen Tech Solutions Pvt. Ltd.',
 
 ##################################################################################
 
-1.satishprixgen-test-prixgen master database backup. 10mins
+ 1.Deployed product_warranty_report(V13.0.0.3) app from Lightandshade-Development (Branch: stage) repo to lights-shades-new (Branch: master) repo. 10mins
 
-2.Repository has been created Alansari-Development repo. 10mins
+ 2.Curefit work in AWS anvironment. 30mins 
 
-3.Deployed partner_firstname - V13.0.0.2, website_sale_custom - V13.0.0.3 and ecom_product_tech_info - V13.0.0.2 from Alansari-Development repo to al_ansari_test2 repo. 20mins
+ 3.Deployed Asset Management(V13.0.6) app from Lightandshade-Development (Branch: master) repo to lights-shades-new (Branch: master) repo. 10mins
 
-4.Curefit work on AWS environment. 30mins
+ 4.Deployed Alt product code version 13.0.2.4 to sf-dyes-sfdpl-new (branch:NEW) repo from sf-dyes-development repo (branch:stageing). 10mins
 
-5.Deployed ecom_product_tech_info - V13.0.0.3 from Alansari-Development repo to al_ansari_test2 repo. 10mins
+ 5.Prepared documentation on Architecture for Object Detection on Google Cloud Platform. 1 hour
 
-6.Deployed partner_firstname - V13.0.0.2, website_sale_custom - V13.0.0.3 and ecom_product_tech_info - V13.0.0.3 apps from al_ansari_test2 repo (Branch: UAT) to alansari-oman-alansari (Branch:stage). 20mins
 
-7.Testing environment has been created for sf-dyes. 20mins
-
-8.Deployed and installed manufacturing_base version 13.0.1.1 app to https://satishprixgen-testing.odoo.com/web#cids=1&home= 5mins
 
