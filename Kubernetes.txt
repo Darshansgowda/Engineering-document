@@ -42,3 +42,10 @@ kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1
 kubectl expose deployment hello-server --type=LoadBalancer --port 8080   //expose application to external traffic
 
 kubectl get service  //Inspect the hello-server
+
+
+Persistent disks are durable network storage devices that your instances can access like physical disks in a desktop or a server. The data on each persistent disk is distributed across several physical disks.
+
+Persistent Disk is Google's local durable storage service, fully integrated with Google Cloud products, Compute Engine and Google Kubernetes Engine.
+
+Classless inter-domain routing (CIDR) is a set of Internet protocol (IP) standards that is used to create unique identifiers for networks and individual devices. The IP addresses allow particular information packets to be sent to specific computers.

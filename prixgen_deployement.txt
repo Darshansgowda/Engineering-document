@@ -10,15 +10,25 @@ Meeting points 17-july
 
 ##################################################################################
 
- 1.Deployed product_warranty_report(V13.0.0.3) app from Lightandshade-Development (Branch: stage) repo to lights-shades-new (Branch: master) repo. 10mins
+1.Deployed portal timesheet(V13.0.0.10) module from Instellars-NewDemo-Dev repo (Branch: stage-madhu) to satishprixgen-instellars-newdemo-db repo (Branch: stage_1 ). 10mins 
 
- 2.Curefit work in AWS anvironment. 30mins 
+2.Deployed portal timesheet(V13.0.0.11) module from Instellars-NewDemo-Dev repo (Branch: stage-madhu) to satishprixgen-instellars-newdemo-db repo (Branch: stage_1 ).10mins
 
- 3.Deployed Asset Management(V13.0.6) app from Lightandshade-Development (Branch: master) repo to lights-shades-new (Branch: master) repo. 10mins
+3.ravagoindia-ravagoindia2 stageing backup for nagendra.10mins
 
- 4.Deployed Alt product code version 13.0.2.4 to sf-dyes-sfdpl-new (branch:NEW) repo from sf-dyes-development repo (branch:stageing). 10mins
+4.Deployed account_irn V13.0.1.1 & 2 & 3 and e_invoice_masters_branch V13.0.1.2 apps to ravagoindia-ravagoindia2 (Branch: Stage-4) repo from e-Invoicing (Branch: master) repo.10mins
 
- 5.Prepared documentation on Architecture for Object Detection on Google Cloud Platform. 1 hour
+5.Deployed and installed account_irn V13.0.1.1 & 2 & 3 and e_invoice_masters_branch V13.0.1.2 apps to ravagoindia-ravagoindia2 (Branch: Stage-4) repo from e-Invoicing (Branch: master) repo.30mins
 
+6.Deployed hr_portal_timeoff V13.0.0.4 and  portal_home_screen(V13.0.0.6) modules from Instellars-NewDemo-Dev repo (Branch: stage-madhu) to satishprixgen-instellars-newdemo-db repo (Branch: stage_1 ).10mins
+
+7.Deployed hr_portal_timeoff V13.0.0.5 module from Instellars-NewDemo-Dev repo (Branch: stage-madhu) to satishprixgen-instellars-newdemo-db repo (Branch: stage_1 ).10mins
+
+
+Deployed ecom_product_tech_info V13.0.0.3 module from alansari master repository to Venturific DB (satishprixgen-venturific-test-masters).
+
+Curefit work on AWS environment.
+
+Prepared architecture details for object detection on google cloud platform.
 
 

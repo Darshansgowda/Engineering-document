@@ -67,13 +67,10 @@ CMD specifies what command to run within the container.
 Docker commands
 
  
- 1985  docker build -t darshan/node-web-app .
  1986  sudo docker build -t darshan/node-web-app .
  1987  sudo docker ps
- 1988  docker images
  1989  sudo docker images
        sudo docker run -p 49160:8080 -d darshan/node-web-app
- 1990  docker run -p 49160:8080 -d darshan/node-web-app
  1992  curl -i localhost:49160
  1993  sudo docker ps
  1995  docker run -p 49160:8080 -d darshan/node-web-app

@@ -115,3 +115,16 @@ SELECT pg_size_pretty (pg_relation_size('actor'));
 psql -h curefit-stage-odoo-master.stage.cure.fit.internal -Ucurefit -dpostgres  -W
 
 psql  testingdev postgres
+
+
+[program:odoo-server]
+user=ubuntu
+command=/odoo/odoo-server/odoo-bin --addons-path=addons/,../enterprise/addons/,../custom/addons -d testingdev -u odoov13_8 --db_host=curefit-stage-odoo-master.stage.cure.fit.internal --db_port=5432 -r curefit  -w xWb8pkewtSckswUFttg8  --xmlrpc-port=8080 --limit-time-real 999999999999999999999999999999999999999999
+directory=/odoo/odoo-server
+autostart=true
+autorestart=true
+stderr_logfile=/var/log/odoo.err.log
+stdout_logfile=/var/log/odoo.out.log
+startretries=3
+stopsignal=KILL
+killasgroup=true
