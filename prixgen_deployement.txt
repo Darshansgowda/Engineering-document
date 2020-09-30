@@ -25,10 +25,12 @@ Meeting points 17-july
 7.Deployed hr_portal_timeoff V13.0.0.5 module from Instellars-NewDemo-Dev repo (Branch: stage-madhu) to satishprixgen-instellars-newdemo-db repo (Branch: stage_1 ).10mins
 
 
-Deployed ecom_product_tech_info V13.0.0.3 module from alansari master repository to Venturific DB (satishprixgen-venturific-test-masters).
+1.Deployed ecom_product_tech_info V13.0.0.3 module from alansari master repository to Venturific DB (satishprixgen-venturific-test-masters). 10mins
 
-Curefit work on AWS environment.
+2.Curefit work on AWS environment. 20mins
 
-Prepared architecture details for object detection on google cloud platform.
+3.Prepared architecture details for object detection on google cloud platform. 2 hours
+
+4.Deployed  hr_portal_payslip_docs(V13.0.0.3) and hr_portal_appraisal(V13.0.0.5) modules from Instellars-NewDemo-Dev repo (Branch: stage-madhu) to satishprixgen-instellars-newdemo-db repo (Branch: stage_1 ). 10mins
 
 

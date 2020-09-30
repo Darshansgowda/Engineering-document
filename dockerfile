@@ -72,10 +72,10 @@ Docker commands
  1989  sudo docker images
        sudo docker run -p 49160:8080 -d darshan/node-web-app
  1992  curl -i localhost:49160
- 1993  sudo docker ps
+ 1993  sudo docker ps -a  //to list the dockers that are build
  1995  docker run -p 49160:8080 -d darshan/node-web-app
  1996  sudo docker run -p 49160:8080 -d darshan/node-web-app
- 1997  sudo docker ps
+ 1997  sudo docker ps  //docker "process status" to check current running docker status
  1998  docker exec -it 0930bd64dd62/bin/bash
  1999  docker exec -it 0930bd64dd62 /bin/bash
  2000  sudo docker exec -it 0930bd64dd62 /bin/bash
