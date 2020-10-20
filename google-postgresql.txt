@@ -119,7 +119,7 @@ psql  testingdev postgres
 
 [program:odoo-server]
 user=ubuntu
-command=/odoo/odoo-server/odoo-bin --addons-path=addons/,../enterprise/addons/,../custom/addons -d testingdev -u odoov13_8 --db_host=curefit-stage-odoo-master.stage.cure.fit.internal --db_port=5432 -r curefit  -w xWb8pkewtSckswUFttg8  --xmlrpc-port=8080 --limit-time-real 999999999999999999999999999999999999999999
+command=/odoo/odoo-server/odoo-bin --addons-path=addons/,../enterprise/addons/,../custom/addons -d testingdev -u odoov13_44 --db_host=curefit-stage-odoo-master.stage.cure.fit.internal --db_port=5432 -r curefit  -w xWb8pkewtSckswUFttg8  --xmlrpc-port=8080 --limit-time-real 999999999999999999999999999999999999999999
 directory=/odoo/odoo-server
 autostart=true
 autorestart=true
@@ -128,3 +128,19 @@ stdout_logfile=/var/log/odoo.out.log
 startretries=3
 stopsignal=KILL
 killasgroup=true
+
+
+
+SELECT move_id, product_id, COUNT(*) FROM inventory_base_report GROUP BY move_id, product_id HAVING COUNT(*) > 1 and price_unit=0;
+
+delete from inventory_base_report where move_id in (188337,188338,188356,88358,188360,188445,188447,188481,188482,188483) and price_unit=0;
+
+
+update inventory_base_report  set product_qty = -(product_qty) where transaction_types in ('t_shipment','in') and product_qty > 0
+
+
+root
+Welcome@12345
+
+iHGDNBJ60Bri54rg
+

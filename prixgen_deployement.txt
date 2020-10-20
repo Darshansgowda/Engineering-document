@@ -10,27 +10,46 @@ Meeting points 17-july
 
 ##################################################################################
 
-1.Deployed portal timesheet(V13.0.0.10) module from Instellars-NewDemo-Dev repo (Branch: stage-madhu) to satishprixgen-instellars-newdemo-db repo (Branch: stage_1 ). 10mins 
 
-2.Deployed portal timesheet(V13.0.0.11) module from Instellars-NewDemo-Dev repo (Branch: stage-madhu) to satishprixgen-instellars-newdemo-db repo (Branch: stage_1 ).10mins
+1.Deployed Landed cost base V.13.10 module to ravagoindia-ravagoindia2 (Branch: Stage-4) repo. 10mins
 
-3.ravagoindia-ravagoindia2 stageing backup for nagendra.10mins
+2.Deployed rfq_separate_sequence V 13.0.0.3 module from sf-dyes-sfdpl-development (Branch: master) repo to sfdpl (Branch: stage-3) repo. 10mins
 
-4.Deployed account_irn V13.0.1.1 & 2 & 3 and e_invoice_masters_branch V13.0.1.2 apps to ravagoindia-ravagoindia2 (Branch: Stage-4) repo from e-Invoicing (Branch: master) repo.10mins
+3.Deployed mrpindent V 13.0.1.0 module from sf-dyes-sfdpl-development (Branch: master) repo to sfdpl (Branch: stage-3) repo. 10mins
 
-5.Deployed and installed account_irn V13.0.1.1 & 2 & 3 and e_invoice_masters_branch V13.0.1.2 apps to ravagoindia-ravagoindia2 (Branch: Stage-4) repo from e-Invoicing (Branch: master) repo.30mins
+4.Deployed hrms_custo 10minsm_field version V13.0.0.13 module from pixon live (Branch: Stage) repo to Ravago-new-test1 (Branch: New) repo. 10mins
 
-6.Deployed hr_portal_timeoff V13.0.0.4 and  portal_home_screen(V13.0.0.6) modules from Instellars-NewDemo-Dev repo (Branch: stage-madhu) to satishprixgen-instellars-newdemo-db repo (Branch: stage_1 ).10mins
+5.Deployed mrpindent V13.0.3 module from sf-dyes-sfdpl-development (Branch: master) repo to sfdpl (Branch: stage-3) repo. 10mins
 
-7.Deployed hr_portal_timeoff V13.0.0.5 module from Instellars-NewDemo-Dev repo (Branch: stage-madhu) to satishprixgen-instellars-newdemo-db repo (Branch: stage_1 ).10mins
+6.Deployed portal_timesheet(V13.0.0.14) module from Instellars-Odoo13 (Branch: master) repo to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo. 10mins
+
+7.Deployed rfq_separate_sequence V 13.0.0.4 module from sf-dyes-sfdpl-development (Branch: master) repo to sfdpl (Branch: stage-3) repo. 10mins
+
+8.Deployed portal_timesheet(V13.0.0.16) module from Instellars-Odoo13 (Branch: master) repo to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo. 10mins
+
+9.Curefit work. 50mins
+
+10.Pushed partner_reference_search V 13.0.0.1 from WOO-QAS (Branch: master) repo to WOOL-S-14 (Branch: master) repo. 10mins
+
+11.Installed Odoo V14 to madhu and akashay sysytem. 40mins
 
 
-1.Deployed ecom_product_tech_info V13.0.0.3 module from alansari master repository to Venturific DB (satishprixgen-venturific-test-masters). 10mins
+1.Deployed portal_timesheet(V13.0.0.16) module from Instellars-Odoo13 (Branch: master) repo to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo. 10mins
 
-2.Curefit work on AWS environment. 20mins
+2.Deployed GL V 13.0.1.0 module from adarsh-gopal-lights-shades-new (branch: master) to sf-dyes live (branch Stage-3) repo. 10mins
 
-3.Prepared architecture details for object detection on google cloud platform. 2 hours
+3.Restored sfdpl live database ( Branch: master) including all modules to adarsh-gopal-sfd (Branch: master). 10mins
 
-4.Deployed  hr_portal_payslip_docs(V13.0.0.3) and hr_portal_appraisal(V13.0.0.5) modules from Instellars-NewDemo-Dev repo (Branch: stage-madhu) to satishprixgen-instellars-newdemo-db repo (Branch: stage_1 ). 10mins
+4.adarsh-gopal-sfd (Branch: master) database backup including modules has been taken before restore. 20mins
 
+5.Merged sfdpl-development-odoo13 (Branch: sfdpl-staging-env) with sfdpl-development-odoo13 (Branch: master). 10mins
 
+6.Deployed sales_discount(V13.10) module from Vahini-Development-odoo13 (Branch: master) repo to Vahini_Prelive (Branch: main) repo. 10mins
+
+7.Deployed contact_and_company_fields V13.0.0.3 module to WOOL-S-14 (Branch: master) repo from WOO-Development-Odoo13 (Branch: woo-qas) repo. 10mins
+
+8.Deployed inventory_base V13.0.1.2 to Yashas-14 (Branch: main) repo from Lights-Shades-New (Branch: master) repo.
+
+9.Curefit work. 30mins
+
+10.Installed Odoo V13 to desktop and V11,V12 to anjan. 30mins

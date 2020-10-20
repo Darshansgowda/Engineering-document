@@ -1,0 +1,5 @@
+https://github.com/ChrisParsonsDev/googleclouddemos
+https://github.com/ChrisParsonsDev/googleclouddemos.git
+
+
+You can change it by running [gcloud config set compute/zone NAME]. 	
