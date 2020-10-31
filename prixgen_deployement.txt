@@ -10,46 +10,27 @@ Meeting points 17-july
 
 ##################################################################################
 
+1.Deployed hr_portal_timeoff(V13.0.0.12) module to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo from Instellars-NewDemo-Dev (Branch: master) repo. 10mins
 
-1.Deployed Landed cost base V.13.10 module to ravagoindia-ravagoindia2 (Branch: Stage-4) repo. 10mins
+2.Deployed hr_portal_timeoff(V13.0.0.13) module to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo from Instellars-NewDemo-Dev (Branch: master) repo. 10mins
 
-2.Deployed rfq_separate_sequence V 13.0.0.3 module from sf-dyes-sfdpl-development (Branch: master) repo to sfdpl (Branch: stage-3) repo. 10mins
+3.Deployed hr_portal_timeoff(V13.0.0.14) module to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo from Instellars-NewDemo-Dev (Branch: master) repo. 10mins
 
-3.Deployed mrpindent V 13.0.1.0 module from sf-dyes-sfdpl-development (Branch: master) repo to sfdpl (Branch: stage-3) repo. 10mins
+4.Deployed hr_portal_timeoff(V13.0.0.15) module to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo from Instellars-NewDemo-Dev (Branch: master) repo. 10mins
 
-4.Deployed hrms_custo 10minsm_field version V13.0.0.13 module from pixon live (Branch: Stage) repo to Ravago-new-test1 (Branch: New) repo. 10mins
+5.Curefir work in AWS environment. 2 hour
 
-5.Deployed mrpindent V13.0.3 module from sf-dyes-sfdpl-development (Branch: master) repo to sfdpl (Branch: stage-3) repo. 10mins
+6.Sfdyes database restore. 1 hour
 
-6.Deployed portal_timesheet(V13.0.0.14) module from Instellars-Odoo13 (Branch: master) repo to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo. 10mins
+7.Added sales_discount module v13 to Vahini-Development-Odoo14. 10mins
 
-7.Deployed rfq_separate_sequence V 13.0.0.4 module from sf-dyes-sfdpl-development (Branch: master) repo to sfdpl (Branch: stage-3) repo. 10mins
-
-8.Deployed portal_timesheet(V13.0.0.16) module from Instellars-Odoo13 (Branch: master) repo to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo. 10mins
-
-9.Curefit work. 50mins
-
-10.Pushed partner_reference_search V 13.0.0.1 from WOO-QAS (Branch: master) repo to WOOL-S-14 (Branch: master) repo. 10mins
-
-11.Installed Odoo V14 to madhu and akashay sysytem. 40mins
+8.Created two new projects in odoo.sh v14. One for testing another one for live for vahini. 20mins
 
 
-1.Deployed portal_timesheet(V13.0.0.16) module from Instellars-Odoo13 (Branch: master) repo to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo. 10mins
+1.Deployed sales_quotation V14.0.0.1 from WOOL-S-14 (Branch: master) repo to WOOUAT (Branch: main) repo. 
 
-2.Deployed GL V 13.0.1.0 module from adarsh-gopal-lights-shades-new (branch: master) to sf-dyes live (branch Stage-3) repo. 10mins
+2.Curefit work in AWS environment.
 
-3.Restored sfdpl live database ( Branch: master) including all modules to adarsh-gopal-sfd (Branch: master). 10mins
+3.Deployed woo_report V13 and chalan_report V13 to WOOUAT (Branch: main) repo from WOO_QAS (Branch: master) repo.
 
-4.adarsh-gopal-sfd (Branch: master) database backup including modules has been taken before restore. 20mins
 
-5.Merged sfdpl-development-odoo13 (Branch: sfdpl-staging-env) with sfdpl-development-odoo13 (Branch: master). 10mins
-
-6.Deployed sales_discount(V13.10) module from Vahini-Development-odoo13 (Branch: master) repo to Vahini_Prelive (Branch: main) repo. 10mins
-
-7.Deployed contact_and_company_fields V13.0.0.3 module to WOOL-S-14 (Branch: master) repo from WOO-Development-Odoo13 (Branch: woo-qas) repo. 10mins
-
-8.Deployed inventory_base V13.0.1.2 to Yashas-14 (Branch: main) repo from Lights-Shades-New (Branch: master) repo.
-
-9.Curefit work. 30mins
-
-10.Installed Odoo V13 to desktop and V11,V12 to anjan. 30mins

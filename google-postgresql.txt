@@ -43,7 +43,7 @@ psql
 \password
 
 
-./odoo-bin --addons-path=addons/,../enterprise/addons --xmlrpc-port=8070
+./odoo-bin --addons-path=addons/,../enterprise/addons --xmlrpc-port=8070 --limit-time-real 99999999999
 
 ./odoo-bin --addons-path=addons/,../enterprise/addons/,../custom/addons --xmlrpc-port=8070
 
@@ -139,8 +139,17 @@ delete from inventory_base_report where move_id in (188337,188338,188356,88358,1
 update inventory_base_report  set product_qty = -(product_qty) where transaction_types in ('t_shipment','in') and product_qty > 0
 
 
-root
-Welcome@12345
+zip -r livemodules.zip /odoo/custom/addons/    ///to zip the directory
+scp -i /home/darshan/Music/odoo.pem ubuntu@odoo-stage.curefit.co:~/*livemodules.zip /home/darshan/Downloads/   //to download the zip file to local machine
 
-iHGDNBJ60Bri54rg
 
+select ib.product_id ,pt.name, abs(sum(product_qty)) as qty, abs(sum(value))as value from inventory_base_report as ib , product_template as pt, product_product as pp where date < '2020-10-15 23:00:00' and pp.id = ib.product_id and pp.product_tmpl_id = pt.id and (warehouse_id IS NULL or warehouse_id in (1)  ) and transaction_types NOT IN  ( 'internal' ) group by ib.product_id,ib.warehouse_id,pt.name
+
+select ib.product_id ,pt.name, abs(sum(product_qty)) as qty, abs(sum(value))as value from inventory_base_report as ib , product_template as pt, product_product as pp where date < '2020-10-15 23:00:00' and pp.id = ib.product_id and pp.product_tmpl_id = pt.id and (warehouse_id IS NULL or warehouse_id in (1)  ) and transaction_types NOT IN  ( 'internal' ) group by ib.product_id,ib.warehouse_id,pt.name;
+
+update inventory_base_report set product_qty = -(product_qty) where transaction_types = 'consumption' and product_qty>0;
+
+
+select move_id,product_id,count(*) from inventory_base_report group by move_id,product_id having count(*)>1;
+
+select move_id,product_id,count(*),price_unit from inventory_base_report group by move_id,product_id,price_unit having count(*)>1 and price_unit=0
