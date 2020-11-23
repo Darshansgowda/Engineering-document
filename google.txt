@@ -26,3 +26,7 @@ https://medium.com/better-programming/deploy-a-react-app-to-google-cloud-platfor
 How to deploy a webapp to Google Cloud Run with Cloud
 
 https://dev.to/carlosazaustre/how-to-deploy-a-webapp-to-google-cloud-run-with-cloud-build-4eel
+
+
+Cloud Interconnect
+Cloud Interconnect extends your on-premises network to Google's network through a highly available, low latency connection. You can use Dedicated Interconnect to connect directly to Google or use Partner Interconnect to connect to Google through a supported service provider. 

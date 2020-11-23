@@ -1,6 +1,5 @@
 cloud-optimization
 
-https://meet.google.com/eho-dpix-qkp
 
 #create process for creating new projects
 

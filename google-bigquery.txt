@@ -12,3 +12,12 @@ SELECT
   SUM(IF(tax_family_winner = "Felidae" AND tax_genus_loser = "Canis", 1, 0)) AS num_cat_wins,
   SUM(IF(tax_genus_winner = "Canis" AND tax_family_loser = "Felidae", 1, 0)) AS num_dog_wins
 FROM matchups
+
+
+
+BigQuery is a fully-managed, serverless data warehouse that enables scalable analysis over petabytes of data. It is a Platform as a Service that supports querying using ANSI SQL. It also has built-in machine learning capabilities. BigQuery was announced in May 2010 and made generally available in November 2011.
+
+
+Google BigQuery is a cloud-based big data analytics web service for processing very large read-only data sets. BigQuery was designed for analyzing data on the order of billions of rows, using a SQL-like syntax.
+
+BigQuery is part of Google Cloud Platform, and integrates with other GCP services and tools. BigQuery can process data stored in other GCP products, including Cloud Storage, the Cloud SQL relational database service, the Cloud Bigtable NoSQL database, Google Drive, and Spanner, Google's distributed database.

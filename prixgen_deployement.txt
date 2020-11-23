@@ -1,36 +1,44 @@
-Meeting points 16-july
-1. SMS integration
 
-Meeting points 17-july
-1. analytical
-
-'author': 'Prixgen Tech Solutions Pvt. Ltd.',to 
-    'website': 'https://www.prixgen.com',
-    'company': 'Prixgen Tech Solutions Pvt. Ltd.',
+'author': 'Prixgen Tech Solutions Pvt. Ltd.',
+'website': 'https://www.prixgen.com',
+'company': 'Prixgen Tech Solutions Pvt. Ltd.',
 
 ##################################################################################
 
-1.Deployed hr_portal_timeoff(V13.0.0.12) module to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo from Instellars-NewDemo-Dev (Branch: master) repo. 10mins
 
-2.Deployed hr_portal_timeoff(V13.0.0.13) module to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo from Instellars-NewDemo-Dev (Branch: master) repo. 10mins
+1.Deployed plm_base V14.0.2.8, hide_aa_in_vendor_bills(v14.0.1), analytic_account_automation_inventory (v14.0.1.3) and to adarsh-gopal-woouat (Branch:main) repo from Woo-Development-Odoo-14 (Branch: main) repo. 20mins
 
-3.Deployed hr_portal_timeoff(V13.0.0.14) module to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo from Instellars-NewDemo-Dev (Branch: master) repo. 10mins
+2.Deployed Portal_home_screen: 13.0.0.10 module to instellars-igc (Branch: stage-5) repo from Instellars-NewDemo-Dev-Odoo13 (Branch: master) repo. 10mins
 
-4.Deployed hr_portal_timeoff(V13.0.0.15) module to satishprixgen-instellars-newdemo-db (Branch: stage_2) repo from Instellars-NewDemo-Dev (Branch: master) repo. 10mins
+3.Deployed partner_ledger_custom_mail V13.0.0.1 module from BI-Worldwide-Development-Odoo13 (Branch: master) repo to BIW-INDIA (Branch: Stage-2) repo. 10mins
 
-5.Curefir work in AWS environment. 2 hour
+4.Deployed Quality Control Base app (version 13.0.3.3) to ravagoindia-ravagoindia2 (Branch: Satge-4) repo from adarsh-gopal-ravago-new-test1 (Branch; master) repo. 10mins
 
-6.Sfdyes database restore. 1 hour
+5.Deployed instellars_timesheet_report - V13.0.0.4 module to instellars-igc (Branch: stage-5) repo from Instellars-NewDemo-Dev-Odoo13 (Branch: master) repo, as we checked Portal_timesheet – 13.0.0.23 was already there in instellars-igc (Branch: stage-5) repo. 20mins
 
-7.Added sales_discount module v13 to Vahini-Development-Odoo14. 10mins
+6.Deployed analytic_account_automation_purchase(v14.2.2) module to adarsh-gopal-woouat (Branch:Stage-2) repo from Woo-Development-Odoo-14 (Branch: main) repo. 10mins
 
-8.Created two new projects in odoo.sh v14. One for testing another one for live for vahini. 20mins
+7.For star group modules deployment. 1 hour
+
+8.Installed odoo14 to venturific Local System and tested. 20mins
+
+9.Deployed portal_home_screen V13.0.0.11 and instellars_timesheet_report V13.0.0.5 modules to instellars-igc (Branch: stage-5) repo from Instellars-NewDemo-Dev-Odoo13 (Branch: master) repo. 20mins
+
+10.Installed trial_balance_custom V11.0.0.1 in vahini test system. 15mins
+
+1.Deployed analytic_account_automation_purchase(v14.2.2) module to adarsh-gopal-woouat (Branch:main) repo from Woo-Development-Odoo-14 (Branch: main) repo. 10mins
+
+2.Developed and Deployed Purchase order Sfdyes V 13.0.0.8 from Sfdpl-development (branch: master) repo to Sfdyes-Rework (Branch : main) repo. 30mins
+
+3.Installed custom_discount, custom_gst, ecom_product_tech_info, hsn_master, pack_slip, product_brand_ecommerce, product_brand_sale and product_qrcode_generator_trading to venturific local system. 30mins
+
+4.alansari-oman-alansari-stage-1 database backup has been provided to Madhukumar. 10mins
+
+5.Deployed analytic_account_automation_purchase(v14.2.2) module to adarsh-gopal-woouat (Branch:main) repo from Woo-Development-Odoo-14 (Branch: main) repo. 10mins
 
 
-1.Deployed sales_quotation V14.0.0.1 from WOOL-S-14 (Branch: master) repo to WOOUAT (Branch: main) repo. 
+1.lns deployments. 30 mins
 
-2.Curefit work in AWS environment.
+2.ravago-uat deployments. 10mins
 
-3.Deployed woo_report V13 and chalan_report V13 to WOOUAT (Branch: main) repo from WOO_QAS (Branch: master) repo.
-
-
+3.woouat deployments. 10mins

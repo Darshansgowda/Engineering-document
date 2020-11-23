@@ -106,6 +106,13 @@ order by pg_total_relation_size(relid) desc,
          pg_relation_size(relid) desc
 limit 10;
 
+select schemaname as table_schema,
+    relname as table_name,
+    pg_size_pretty(pg_total_relation_size(relid)) as total_size 
+from pg_catalog.pg_statio_user_tables
+order by pg_total_relation_size(relid) desc,
+         pg_relation_size(relid) desc
+limit 10;
 
 //table size in MB.
 SELECT pg_size_pretty (pg_relation_size('actor'));
@@ -116,6 +123,7 @@ psql -h curefit-stage-odoo-master.stage.cure.fit.internal -Ucurefit -dpostgres  
 
 psql  testingdev postgres
 
+ssh -i odoo.pem ubuntu@odoo-stage.curefit.co
 
 [program:odoo-server]
 user=ubuntu
@@ -142,6 +150,8 @@ update inventory_base_report  set product_qty = -(product_qty) where transaction
 zip -r livemodules.zip /odoo/custom/addons/    ///to zip the directory
 scp -i /home/darshan/Music/odoo.pem ubuntu@odoo-stage.curefit.co:~/*livemodules.zip /home/darshan/Downloads/   //to download the zip file to local machine
 
+scp cool_stuff.txt sanjeev@example.com:/this/path/right/here
+
 
 select ib.product_id ,pt.name, abs(sum(product_qty)) as qty, abs(sum(value))as value from inventory_base_report as ib , product_template as pt, product_product as pp where date < '2020-10-15 23:00:00' and pp.id = ib.product_id and pp.product_tmpl_id = pt.id and (warehouse_id IS NULL or warehouse_id in (1)  ) and transaction_types NOT IN  ( 'internal' ) group by ib.product_id,ib.warehouse_id,pt.name
 
@@ -153,3 +163,8 @@ update inventory_base_report set product_qty = -(product_qty) where transaction_
 select move_id,product_id,count(*) from inventory_base_report group by move_id,product_id having count(*)>1;
 
 select move_id,product_id,count(*),price_unit from inventory_base_report group by move_id,product_id,price_unit having count(*)>1 and price_unit=0
+
+
+
+27934
+
