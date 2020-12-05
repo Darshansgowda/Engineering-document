@@ -114,6 +114,12 @@ order by pg_total_relation_size(relid) desc,
          pg_relation_size(relid) desc
 limit 10;
 
+The function current_database() returns the name of the current database:
+ SELECT current_database();
+
+To find the database size
+SELECT pg_size_pretty( pg_database_size('dbname') );
+
 //table size in MB.
 SELECT pg_size_pretty (pg_relation_size('actor'));
 
@@ -166,5 +172,9 @@ select move_id,product_id,count(*),price_unit from inventory_base_report group b
 
 
 
-27934
+The function current_database() returns the name of the current database:
+ SELECT current_database();
+
+To find the database size
+ SELECT pg_size_pretty( pg_database_size('dbname') );
 

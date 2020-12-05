@@ -37,8 +37,47 @@
 5.Deployed analytic_account_automation_purchase(v14.2.2) module to adarsh-gopal-woouat (Branch:main) repo from Woo-Development-Odoo-14 (Branch: main) repo. 10mins
 
 
-1.lns deployments. 30 mins
+1.vahini deployments. 10 mins
 
-2.ravago-uat deployments. 10mins
+2.ravago-stage deployments. 10mins
 
-3.woouat deployments. 10mins
+3.woouat deployments. 1 hour
+
+4.venturific deployments. 10mins 
+
+5.instellars deployments. 10mins
+
+6.sfdyes deployments. 10mins
+
+7.pre-prod-lns deployment. 2 hours
+
+
+
+1.Deployed the order_reference_document v13.0.0.2 module to Al Ansari staging database (Stage_2) from Alansari-Development-Odoo13 (Branch: master)repo. 10mins
+
+2.pre-prod-lns deployment. 10mins
+
+3.venturific deployments. 10mins 
+
+4.Resolving warnings (all projects) with the help of santhosh. 1 hour
+
+5.Worked on access rights (woouat). 3 hours
+
+6.ravago-stage deployments. 10mins
+
+7.MAS project work.40mins
+
+8.star group work. 20mins
+
+1.Resolving warnings (all projects) with the help of santhosh. 1 hour
+
+2.Deployed the order_reference_document v13.0.0.2 module to Al Ansari staging database (Stage_2) from Alansari-Development-Odoo13 (Branch: master)repo. 10mins
+
+3.Database creation for mahendra for testing. 10mins
+
+4.ravago-stage deployments. 20mins
+
+5.venturific deployments. 20mins
+
+
+Deployed bi_website_rma V13.0.0.2(without warnings) to Al Ansari staging db (Stage_2) from Al Ansari development repo.
