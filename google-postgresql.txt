@@ -6,6 +6,7 @@ https://stackoverflow.com/questions/49169094/postgres-pg-dump-version-mismatch-e
 
 https://severalnines.com/database-blog/backup-postgresql-using-pgdump-and-pgdumpall  //create database
 
+
 104.197.170.61  //postgresql public ip
 
 
@@ -178,3 +179,10 @@ The function current_database() returns the name of the current database:
 To find the database size
  SELECT pg_size_pretty( pg_database_size('dbname') );
 
+
+
+Database backup:https://drive.google.com/file/d/1oa7UGe2vfF76PaGth6sIVuvjibxaSZjG/view?usp=sharing
+
+Modules:https://drive.google.com/drive/folders/1HBpXQeOP3aar1w4aCna-zVu0kHU4VG_y?usp=sharing
+
+791897018
