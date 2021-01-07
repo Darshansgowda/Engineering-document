@@ -1,8 +1,0 @@
-1. https://github.com/Prixgen-Tech-Solutions-Pvt-Ltd/sf-dyes-sfdpl-development.git
-2. https://github.com/Prixgen-Tech-Solutions-Pvt-Ltd/Ravagoindia-Development.git
-3. https://github.com/Prixgen-Tech-Solutions-Pvt-Ltd/BI-Worldwide-Development.git
-4. https://github.com/Prixgen-Tech-Solutions-Pvt-Ltd/Vahini.git (Vahini_UAT)
-5. https://github.com/Prixgen-Tech-Solutions-Pvt-Ltd/Alansari-Development.git
-6. https://github.com/Prixgen-Tech-Solutions-Pvt-Ltd/Instellars-Odoo-v13.git
-7. https://github.com/Prixgen-Tech-Solutions-Pvt-Ltd/Curefit-development.git
-8.https://github.com/Prixgen-Tech-Solutions-Pvt-Ltd/Lightandshade-Development.git

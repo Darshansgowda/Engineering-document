@@ -1,8 +1,6 @@
 https://severalnines.com/database-blog/backup-postgresql-using-pgdump-and-pgdumpall
 
-https://cloud.google.com/sql/docs/postgres/connect-admin-ip  //login
-
-https://stackoverflow.com/questions/49169094/postgres-pg-dump-version-mismatch-even-though-versions-are-the-same  //version missmatch server version and pg_dump version
+https://stackoverflow.com/questions/49169094/postgres-pg-dump-version-mismatch-even-though-versions-are-the-same  //version mismatch server version and pg_dump version
 
 https://severalnines.com/database-blog/backup-postgresql-using-pgdump-and-pgdumpall  //create database
 
@@ -144,14 +142,7 @@ startretries=3
 stopsignal=KILL
 killasgroup=true
 
-
-
-SELECT move_id, product_id, COUNT(*) FROM inventory_base_report GROUP BY move_id, product_id HAVING COUNT(*) > 1 and price_unit=0;
-
-delete from inventory_base_report where move_id in (188337,188338,188356,88358,188360,188445,188447,188481,188482,188483) and price_unit=0;
-
-
-update inventory_base_report  set product_qty = -(product_qty) where transaction_types in ('t_shipment','in') and product_qty > 0
+qty = -(product_qty) where transaction_types in ('t_shipment','in') and product_qty > 0
 
 
 zip -r livemodules.zip /odoo/custom/addons/    ///to zip the directory
@@ -160,29 +151,8 @@ scp -i /home/darshan/Music/odoo.pem ubuntu@odoo-stage.curefit.co:~/*livemodules.
 scp cool_stuff.txt sanjeev@example.com:/this/path/right/here
 
 
-select ib.product_id ,pt.name, abs(sum(product_qty)) as qty, abs(sum(value))as value from inventory_base_report as ib , product_template as pt, product_product as pp where date < '2020-10-15 23:00:00' and pp.id = ib.product_id and pp.product_tmpl_id = pt.id and (warehouse_id IS NULL or warehouse_id in (1)  ) and transaction_types NOT IN  ( 'internal' ) group by ib.product_id,ib.warehouse_id,pt.name
-
-select ib.product_id ,pt.name, abs(sum(product_qty)) as qty, abs(sum(value))as value from inventory_base_report as ib , product_template as pt, product_product as pp where date < '2020-10-15 23:00:00' and pp.id = ib.product_id and pp.product_tmpl_id = pt.id and (warehouse_id IS NULL or warehouse_id in (1)  ) and transaction_types NOT IN  ( 'internal' ) group by ib.product_id,ib.warehouse_id,pt.name;
-
-update inventory_base_report set product_qty = -(product_qty) where transaction_types = 'consumption' and product_qty>0;
-
-
-select move_id,product_id,count(*) from inventory_base_report group by move_id,product_id having count(*)>1;
-
-select move_id,product_id,count(*),price_unit from inventory_base_report group by move_id,product_id,price_unit having count(*)>1 and price_unit=0
-
-
-
 The function current_database() returns the name of the current database:
  SELECT current_database();
 
 To find the database size
  SELECT pg_size_pretty( pg_database_size('dbname') );
-
-
-
-Database backup:https://drive.google.com/file/d/1oa7UGe2vfF76PaGth6sIVuvjibxaSZjG/view?usp=sharing
-
-Modules:https://drive.google.com/drive/folders/1HBpXQeOP3aar1w4aCna-zVu0kHU4VG_y?usp=sharing
-
-791897018
