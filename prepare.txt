@@ -7,3 +7,21 @@ Representational state transfer (REST)
 A REST API is a way for two computer systems to communicate over HTTP in a similar way to web browsers and servers. Sharing data between two or more systems has always been a fundamental requirement of software development.
 
 Persistent storage is any data storage device that retains data after power to that device is shut off. It is also sometimes referred to as non-volatile storage. Magnetic media, such as hard disk drives and tape are common types of persistent storage, as are the various forms of optical media such as DVD
+
+
+
+Hello [Thier name],
+
+As you already know, I’ll be leaving my position as [job title] here at [Company], and my last day is [date].
+I wanted to let you know that I’ll be leaving my position as [job title] here at [Company] and my last day is [date].
+
+I would like to convey my gratitude for the unending support and guidance that I have received throughout my tenure in this organization.
+
+I wish you all the luck for your future here and please don’t hesitate to get in touch.
+
+Here are my details: [email X, LinkedIn X]
+
+Thanks for everything,
+
+[Your Name X]
+
